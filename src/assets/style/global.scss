@@ -1,11 +1,11 @@
+// Importazione Font
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Lobster&family=Loved+by+the+King&family=Oswald:wght@300;700&display=swap');
+
+// Importazione variabili
 @import "./variables.scss";
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-
-h1{
-    color: $quadrato-rosso;
 }
