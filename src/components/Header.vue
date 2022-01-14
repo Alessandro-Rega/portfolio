@@ -118,6 +118,7 @@ header{
             li{
                 font-size: 30px;
                 font-family: $Lato;
+                z-index: 999;
 
                 a{
                     text-decoration: none;
@@ -128,12 +129,13 @@ header{
     }
 
     .closed{
-        left: +100%;
+        // left: +100%;
+        display: none;
         transition: 0.5s ease-in-out;
     }
 
     .open{
-        left: 0%;
+        // left: 0%;
         transition: 0.5s ease-in-out;
     }
 }
