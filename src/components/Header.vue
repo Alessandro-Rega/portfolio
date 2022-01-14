@@ -68,10 +68,8 @@ header{
 
     .burger-menu{
         text-align: center;
-        line-height: 30px;
         margin-right: 27px;
         cursor: pointer;
-        border: 1px solid red;
 
         i{
             font-size: 30px;
@@ -151,7 +149,9 @@ header{
         }
 
         .burger-menu{
-            font-size: 50px;
+            i{
+                font-size: 50px;
+            }
         }
 
         .burger-menu-open{
