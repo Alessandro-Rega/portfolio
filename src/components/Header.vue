@@ -84,11 +84,13 @@ header{
 
     .burger-menu-open{
         width: 100%;
-        height: 100vh;
+        height: 200px;
         position: absolute;
         top: 0;
         left: 0;
         background-color: #fff;
+        -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.59); 
+        box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.59);
         z-index: 3;
 
         &::after{
@@ -113,14 +115,14 @@ header{
             transform: translate(-50%, -50%);
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
+            justify-content: space-around;
             align-items: center;
             list-style: none;
 
             li{
                 font-size: 30px;
                 font-family: $Lato;
-                margin: 2em 0;
+                margin: 0.5em 0;
                 z-index: 999;
 
                 a{
