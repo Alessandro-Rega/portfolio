@@ -1,6 +1,5 @@
 <template>
   <div id="about">
-    ciao
   </div>
 </template>
 
@@ -15,7 +14,6 @@ export default {
 @import "../assets/style/variables.scss";
 
 #about{
-  font-size: 100px;
 }
 
 @media screen and (min-width: 768px){}

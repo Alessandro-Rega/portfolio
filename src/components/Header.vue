@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header id="home">
       <h2>Full Stack Web Developer</h2>
       <div class="burger-menu">
           <i class="fas fa-bars" v-on:click="menu_open"></i>
@@ -16,9 +16,9 @@
       <div class="burger-menu-open" :class="open ? 'open' : 'closed'">
           <i class="fas fa-times" v-on:click="menu_closed"></i>
           <ul>
-              <li v-on:click="menu_closed"><a href="#">Home</a></li>
-              <li v-on:click="menu_closed"><a href="#">About</a></li>
-              <li v-on:click="menu_closed"><a href="#">Works</a></li>
+              <li v-on:click="menu_closed"><a href="#home">Home</a></li>
+              <li v-on:click="menu_closed"><a href="#about">About</a></li>
+              <li v-on:click="menu_closed"><a href="#works">Works</a></li>
           </ul>
       </div>
   </header>
