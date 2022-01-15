@@ -64,12 +64,14 @@ header{
         font-weight: normal;
         font-size: 20px;
         margin-left: 17px;
+        z-index: 1;
     }
 
     .burger-menu{
         text-align: center;
         margin-right: 27px;
         cursor: pointer;
+        z-index: 2;
 
         i{
             font-size: 30px;
@@ -87,6 +89,7 @@ header{
         top: 0;
         left: 0;
         background-color: #fff;
+        z-index: 3;
 
         &::after{
             content: "";
@@ -175,6 +178,7 @@ header{
 
         h2{
             margin-left: 51px;
+            z-index: 1;
         }
 
         .burger-menu{
@@ -186,6 +190,7 @@ header{
             height: 30px;
             display: block;
             margin-right: 86px;
+            z-index: 5;
 
             ul{
                 list-style: none;
