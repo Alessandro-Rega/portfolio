@@ -183,5 +183,73 @@ export default {
     }
   }
 }
-@media screen and (min-width: 1920px){}
+@media screen and (min-width: 1920px){
+  .quadrati{
+
+    img{
+      width: 120%;
+      transform: translate(-10%, -35%);
+    }
+  }
+
+  .icone-programmi{
+    position: relative;
+    z-index: 2;
+
+    .fa-html5{
+      font-size: 80px;
+      position: absolute;
+      top: 280px;
+      left: 246px;
+      transform: rotate(-9.58deg);
+    }
+    .fa-js{
+      font-size: 80px;
+      position: absolute;
+      top: 42px;
+      left: 679px;
+      transform: rotate(-8.88deg);
+    }
+    .fa-laravel{
+      font-size: 80px;
+      position: absolute;
+      top: 89px;
+      left: 1189px;
+      transform: rotate(10.28deg);
+    }
+    .fa-css3-alt{
+      font-size: 80px;
+      position: absolute;
+      top: 164px;
+      left: 1619px;
+      transform: rotate(6.98deg);
+    }
+    .fa-sass{
+      font-size: 80px;
+      position: absolute;
+      top: 530px;
+      left: 1460px;
+    }
+    .fa-bootstrap{
+      font-size: 80px;
+      position: absolute;
+      top: 506px;
+      left: 1094px;
+    }
+    .fa-vuejs{
+      font-size: 80px;
+      position: absolute;
+      top: 371px;
+      left: 819px;
+      transform: rotate(-6.47deg);
+    }
+    .fa-php{
+      font-size: 80px;
+      position: absolute;
+      top: 521px;
+      left: 421px;
+      transform: rotate(3.63deg);
+    }
+  }
+}
 </style>
