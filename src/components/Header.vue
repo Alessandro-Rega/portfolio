@@ -104,7 +104,6 @@ header{
 
         ul{
             width: 143px;
-            height: 400px;
             position: absolute;
             top: 50%;
             left: 50%;
@@ -118,6 +117,7 @@ header{
             li{
                 font-size: 30px;
                 font-family: $Lato;
+                margin: 2em 0;
                 z-index: 999;
 
                 a{
@@ -157,14 +157,6 @@ header{
         }
 
         .burger-menu-open{
-            ul{
-                height: 600px;
-
-                li{
-                    font-size: 50px;
-                }
-            }
-
             i{
                 font-size: 50px;
             }
