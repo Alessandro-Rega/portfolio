@@ -22,12 +22,13 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
+  background-image: url("../assets/img/sfondo.png");
+  background-size: 800px;
+  background-position: center;
 }
 
 .cont-nome{
   text-align: center;
-  border: 1px solid lime;
 
   h1{
     text-transform: uppercase;

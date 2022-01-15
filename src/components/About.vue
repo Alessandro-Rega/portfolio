@@ -1,5 +1,6 @@
 <template>
   <div id="about">
+    ciao
   </div>
 </template>
 
@@ -12,6 +13,10 @@ export default {
 <style lang="scss" scoped>
 // Importazione variabili
 @import "../assets/style/variables.scss";
+
+#about{
+  font-size: 100px;
+}
 
 @media screen and (min-width: 768px){}
 @media screen and (min-width: 1024px){}
